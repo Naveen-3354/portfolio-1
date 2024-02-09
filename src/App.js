@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import Loading from './pages/loading/Loading';
 
 function App() {
   return (
     <div className="App">
-      
+      <Loading numberOfDivs={20} />
     </div>
   );
 }

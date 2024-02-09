@@ -1,0 +1,19 @@
+.loading {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(50px, 1fr)
+    ); /* Change 100px to your desired width */
+    grid-gap: 10px; /* Adjust the gap between divs as needed */
+    height: 100vh; /* Ensure the container fills the entire viewport height */
+    padding: 10px; /* Adjust padding as needed */
+  }
+
+  .grid-item {
+    background-color: #ccc; /* Background color of each div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
